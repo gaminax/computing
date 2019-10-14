@@ -15,3 +15,12 @@ A general description of topics in computing related to web publishing.
 
 ### [Languages](languages/index.html)
 - [JavaScript/](languages/javascript/index.html)
+
+### [Linux](linux/index.html)
+- [git](linux/git.html)
+
+### [Web/](web/index.html)
+- [CSS/](web/css/index.html)
+- [HTML/](web/html/index.html)
+- [SVG/](web/svg/index.html)
+- [The Jekyll Web Server](web/jekyll.htm
