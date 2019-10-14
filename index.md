@@ -3,7 +3,7 @@ Computing/
 
 
 ## Computing
-A general description of topics in computing related to web pulbishing.
+A general description of topics in computing related to web publishing.
 
 ### [Editors](editors/index.html)
 - [Vim/](editors/vim/index.html)
