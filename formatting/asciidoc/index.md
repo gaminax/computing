@@ -3,7 +3,7 @@
 [Formatting/](../index.html)
 AsciiDoc/
 
-## Asciidoc
+## AsciiDoc
 
 Asciidoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
 
