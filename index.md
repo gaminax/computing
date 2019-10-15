@@ -23,4 +23,4 @@ A general description of topics in computing related to web publishing.
 - [CSS/](web/css/index.html)
 - [HTML/](web/html/index.html)
 - [SVG/](web/svg/index.html)
-- [The Jekyll Web Server](web/jekyll.htm
+- [The Jekyll Web Page Generator and Server](web/jekyll.htm)
