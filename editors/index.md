@@ -6,5 +6,6 @@ Text Editors have an underlying text format of characters and lines, while Word 
 Having an underlying text format widens the ability to manipulate the underlying text.
 
 [Vim/](vim/index.html)
+Vim began as the Unix editor 'ed'.
 
 [Emacs/](emacs/index.html)
