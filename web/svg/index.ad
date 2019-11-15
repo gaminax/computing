@@ -1,6 +1,6 @@
-[Home/](../../../index.html)
-[Computing/](../../index.html)
-[Web/](../index.html)
+link:../../../index.html[Home/]
+link:../../index.html[Computing/]
+link:../index.html[Web/]
 SVG/
 
 ## SVG (Scalar Vector Graphics)

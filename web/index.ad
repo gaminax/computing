@@ -1,7 +1,11 @@
-[Home/](../../index.html)
-[Computing/](../index.html)
+link:../../index.html[Home/]
+link:../index.html[Computing/]
 Web/
 
 ## Web
 
-[SVG/](svg/index.html)
+link:css/index.html[CSS/]
+
+link:svg/index.html[SVG/]
+
+link:html/index.html[HTML/]

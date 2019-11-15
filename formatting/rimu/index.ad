@@ -1,6 +1,6 @@
-[Home/](../../../index.html)
-[Computing/](../../index.html)
-[Formatting/](../index.html)
+link:../../../index.html[Home/]
+link:../../index.html[Computing/]
+link:../index.html[Formatting/]
 Rimu/
 
 

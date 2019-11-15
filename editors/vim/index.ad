@@ -1,5 +1,5 @@
-[Computing/ ](../../index.html)
-[Editors/ ](../index.html)
+link:../../index.html[Computing/ ]
+link:../index.html[Editors/ ]
 Vim/
 
 ## The Vim Editors

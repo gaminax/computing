@@ -1,11 +1,18 @@
-[Computing/](../index.html) Editors/
+link:../index.html[Computing/]
+Editors/
 
 ## Editors
 We are interested in text editors and not Word Processors.
-Text Editors have an underlying text format of characters and lines, while Word Processors each have their own underlying format. The OpenOffice editor has an underlying XML format.
+
+Text Editors have an underlying text format of characters and lines, while Word Processors each have their own underlying format.
+
 Having an underlying text format widens the ability to manipulate the underlying text.
 
-[Vim/](vim/index.html)  
-Vim began as the Unix command line editor called *ed*.
+The OpenOffice editor has an underlying XML format.
 
-[Emacs/](emacs/index.html)
+### link:vim/index.html[Vim/]
+Vim began as the Unix command line editor called *ed*.
+One can go into ed mode with a `Q` for quit vi mode.
+One leaves ed mode with a `vi` command.
+
+### link:emacs/index.html[Emacs/]

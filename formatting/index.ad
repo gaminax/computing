@@ -1,8 +1,8 @@
-[Home/](../../index.html)
-[Computing/](../index.html)
+link:../../index.html[Home/]
+link:../index.html[Computing/]
 Formatting/
 
 ## Formatting
 Source text has styling added to it before it is rendered on a display.
 
-[AsciiDoc/](asciidoc/index.html)
+link:asciidoc/index.html[AsciiDoc/]
