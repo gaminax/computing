@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+a { color: #aa0;
+  &:visited { color: #880; }
+  &:hover { color: #eee; } }
+blockquote { color: #888; }
+table { color: #ccc; }
+table { tr { &:nth-child(even) { background-color: #444; } } }
+h1 , h2 , h3, h4, h5 {
+    font-family: 'Flamenco', 'IBM Plex Sans', sans-serif;
+    color: #faa;
+//     color: $brand-color;
+}
+body {
+    font-family: 'IBM Plex Serif', 'Noto Serif', serif ;
+    color: #eee;
+    background-color:#030;
+//    color: #bbb;
+//    background-color:#323;
+}
+// a { color: #29f; }
+pre, code { background-color: #080; }
+.site-title { &,&:visited { color: #aaa; } }
+.site-nav { background-color: #444; }
+.menu-icon  { > svg path { fill: #888; } }
+.page-link { color: #bbb; }

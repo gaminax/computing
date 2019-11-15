@@ -1,8 +1,9 @@
-[Home/](../../../index.html)
-[Computing/](../../index.html)
-[Languages/](../index.html)
+link:../../../index.html[Home/]
+link:../../index.html[Computing/]
+link:../index.html[Languages/]
 JavaScript/
 
-## Javascript
+## JavaScript
 
-JavaScript(1995) is a scripting language: a language that is not compiled before it runs.
+JavaScript(1995) is a scripting language: a language that is not compiled before it runs. In 1995, Netscape already had Java, a compiled language, running on their browser, and they wanted to add a scripting language to the browser, so they commissioned JavaScript.
+

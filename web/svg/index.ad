@@ -4,4 +4,21 @@ link:../index.html[Web/]
 SVG/
 
 ## SVG (Scalar Vector Graphics)
-SVG(1999) is an image format for two dimensional images that is well integrated into HTML, and recognized by web browsers.
+SVG(1999) is an image format for two dimensional images that is well integrated into HTML, and now recognized by most web browsers.
+
+[cols=2]
+|===
++++
+<svg width=50 height=50 viewBox="0 0 50 50" >
+<rect width=50 height=50 style="fill:red" />
+</svg>
++++
+|
+|
+<svg width=50 height=50 viewBox="0 0 50 50" > +
+<rect width=50 height=50 style="fill:red" />
+</svg>
+|
+|
+|===
+
