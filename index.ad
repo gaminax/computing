@@ -1,0 +1,59 @@
+---
+---
+:notitle:
+
+[small]##
+link:../index.html[Home/]
+Computing/
+##
+
+[Abstract]
+A general description of topics in computing related to web publishing.
+
+### link:web/index.html[Web/]
+[cols=3]
+|===
+| link:web/css/index.html[CSS/]
+| link:web/html/index.html[HTML/]
+| link:web/svg/index.html[SVG/]
+| link:web/jekyll.htm[The Jekyll Web Page Generator and Server]
+|
+|
+|===
+
+### link:formatting/index.html[Formatting/]
+[cols=4]
+|===
+| link:formatting/asciidoc/index.html[AsciiDoc/]
+| link:formatting/rimu/index.html[Rimu/]
+|
+|
+|===
+
+### link:editors/index.html[Editors]
+[cols=4]
+|===
+| link:editors/vim/index.html[Vim/]
+| link:editors/emacs/index.html[Emacs/]
+|
+|
+|===
+
+### link:languages/index.html[Languages]
+[cols=4]
+|===
+| link:languages/javascript/index.html[JavaScript/]
+| link:languages/ruby/index.html[Ruby]
+|
+|
+|===
+
+### link:linux/index.html[Linux]
+[cols=4]
+|===
+| link:linux/git.html[git]
+|
+|
+|
+|===
+

@@ -1,1 +1,17 @@
+title: Computing
+description: Topics in Web Publishing, Formatting, Editors and Programming Languages.
 theme: minima
+google_analytics: UA-73093345-1
+show_downloads: false
+github_username: gaminax
+github: [metadata]
+exclude: [docs]
+baseurl: /computing
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-asciidoc
+asciidoc:
+    ext: ad, adoc, asciidoc
+

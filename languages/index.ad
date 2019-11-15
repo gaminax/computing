@@ -1,0 +1,12 @@
+---
+---
+
+link:../../index.html[home/]
+link:../index.html[computing]
+languages/
+
+## Languages
+
+link:javascript/index.html[JavaScript/] +
+link:ruby/index.html[Ruby]
+

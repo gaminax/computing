@@ -1,0 +1,12 @@
+---
+---
+
+link:../../../index.html[Home/]
+link:../../index.html[Computing/]
+link:../index.html[Languages/]
+Ruby/
+
+= Ruby
+
+[source, ruby]
+puts "Hello, World!"
