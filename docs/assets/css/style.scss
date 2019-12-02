@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "minima";
+@import "minima"
 a { color: #aa0;
   &:visited { color: #880; }
   &:hover { color: #eee; } }
@@ -37,6 +37,3 @@ pre, code { background-color: #030; }
 // syntax-highlighting
 .highlight { background: #050; }
 .highlighter-rouge .highlight { background: #050; }
-
-.site-title { border-left: 50px; color: yellow; }
-
