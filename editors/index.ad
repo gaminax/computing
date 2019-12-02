@@ -1,18 +1,24 @@
-link:../index.html[Computing/]
-Editors/
+= Editors
+:page-title: EEddiittoorrss
 
-## Editors
+// :no title:
+
+// link:../index.html[Computing/] Editors/
+
+== Editors
 We are interested in text editors and not Word Processors.
 
-Text Editors have an underlying text format of characters and lines, while Word Processors each have their own underlying format.
+Text Editors have an underlying text format of characters and lines, while Word Processors each have their own underlying format. For example OpenOffice has an underlying XML format. The fact that XML has an underlying text format does not make OpenOffice a text editor.
+What OpenOffice edits is XML format and not text format.
+Inkscape manipulates XML/SVG format.
 
-Having an underlying text format widens the ability to manipulate the underlying text.
+An XML editor can only manipulate the text within the constraints of keeping the XML format.
+Having an access to the underlying text format enables its manipulation in an way.
 
-The OpenOffice editor has an underlying XML format.
-
-### link:vim/index.html[Vim/]
+=== link:vim/index.html[Vim/]
 Vim began as the Unix command line editor called *ed*.
 One can go into ed mode with a `Q` for quit vi mode.
 One leaves ed mode with a `vi` command.
 
-### link:emacs/index.html[Emacs/]
+=== link:emacs/index.html[Emacs/]
+The emacs editor.

@@ -1,11 +1,22 @@
-link:../../index.html[Home/]
-link:../index.html[Computing/]
-Web/
+= Web
+:page-title: ptWeb
+:page-header:
 
-## Web
-
+////
+[big]#Web# +
+[small]##
 link:css/index.html[CSS/]
-
 link:svg/index.html[SVG/]
-
 link:html/index.html[HTML/]
+##
+////
+
+// an empty value for the page-header does not cause it to be part of the header.
+// it would need to be something like :page-header: ph
+// :no title:
+//  link:../../index.html[Home/] link:../index.html[Computing/] Web/
+// '''
+
+== Web
+
+link:jekyll.html[Jekyll]

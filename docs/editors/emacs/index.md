@@ -1,0 +1,24 @@
+---
+layout: default
+date: 2019-12-02
+title: EEmacs
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../../../index.html">Home/</a></span>
+<span class="small"><a href="../../index.html">Computing/</a></span>
+<span class="small"><a href="../index.html">Editors/</a></span>
+<span class="small">Emacs/</span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_emacs">Emacs</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Emacs(1976) is written in C and Lisp.
+Being so old, it was developed using terminology that is not used today. What most people would call a Window, Emacs calls a Frame.</p>
+</div>
+</div>
+</div>

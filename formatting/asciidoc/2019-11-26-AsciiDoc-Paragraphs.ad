@@ -1,0 +1,82 @@
+= 26 AsciiDoc Paragraphs
+:page-title: ptAsciiDoc Paragraphs
+:page-layout: page
+
+[small]##
+foo={foo} +
+title={title}
+##
+
+// :page-categories: [formatting,asciidoc]
+// :foo: Foo
+// :page-title: Page Title AsciiDoc Paragraphs
+// :page-title: 26-AsciiDoc-Paragraphs
+// == {title}
+== AsciiDoc Paragraphs
+There are several kinds of paragraphs.
+
+=== Normal Paragraphs
+- The Default.
+- No formatting needed.
+- Begin against left margin.
+
+=== Literal Paragraphs
+- Rendered as monospaced text with the same background and no border.
+- No formatting or substitutions are made to the text..
+
+- Get it with:
+  - Indented text. Only the to indent the first line, and that can be done with a single space.
+  - put a `[literal]` line before the paragraph
+  - surround the paragraph with dotted `....` lines.
+
+=== Listing Paragraphs (Dashes) 
+Render the text with xxx.
+
+----
+Get it with containing dashes '----'.
+----
+
+=== Text Quote and Verse Quote Paragraphs
+Text quotes flow the text; verse quotes keep line breaks.
+
+----
+[quote, Josephus, Antiquities]
+The quote on piety and righteousness.
+----
+
+----
+[verse, Blake, Oh Rose]
+Oh rose thou art sick,
+In the withering light.
+----
+
+
+=== Admonition Paragraphs
+Add a single quote to: TIP, NOTE, IMPORTANT, WARNING, CAUTION at the beginning of the paragraph.
+
+[literal]
+NOTE: This is a note paragraph.
+
+Or use the [NOTE] notation.
+
+[literal]
+[NOTE]
+This is a note paragraph.
+
+You can specify the icon to be used, with [icon="./images/icons/note.png:].
+
+
+=== Delimited Blocks
+[literal]
+//// comment
+++++ Passthrough Block
+---- Listing Block
+.... Literal Block
+**** Sidebar Block
+____ Quote Block
+
+==== Example Block
+
+--   Open Block
+
+

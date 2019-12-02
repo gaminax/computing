@@ -1,14 +1,18 @@
-link:../../index.html[Home/]
-link:../index.html[Computing/]
-link:index.html[Web/]
-Jekyll
+= Jekyll
+:page-title: page-title-Jekyll
+:title: title-Jekyll
+:page-header:
 
-## Jekyll
+// :no title:
+
+// link:../../index.html[Home/] link:../index.html[Computing/] link:index.html[Web/] Jekyll
+
+== Jekyll
 Jekyll(2014) is a static web site generator.
 Jekyll is a ruby gem.
 The configuration is specified in the file: +_config.yml_+.
-The Jekyll built in theme is Minima. This is the default theme.
-No additional Gems are needed to generate a website using the Minima theme.
+The default Jekyll built in theme is minima.
+No additional Gems are needed to generate a website using the minima theme.
 
 One can specify additional gems needed by Jekyll to build a web site in this file. No Gemfile ( the file specifying the Gems needed by Jekyll) is strictly speaking necessary.
 

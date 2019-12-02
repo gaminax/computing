@@ -1,0 +1,23 @@
+= Web
+:page-title: ptWeb
+:page-header:
+
+[small]#link:../../index.html[Home/]#
+[small]#link:../index.html[Computing/]#
+[small]#link:index.html[Web/]#
+[small]#link:css[Css]#, [small]#link:html[Html]#, [small]#link:svg[Svg]#
+[small]#link:../../index.html[Home/]#
+[small]#link:../index.html[Computing/]#
+
+// :no title:
+//  link:../../index.html[Home/] link:../index.html[Computing/] Web/
+
+[small]##
+link:css/index.html[CSS/]
+link:svg/index.html[SVG/]
+link:html/index.html[HTML/]
+##
+
+== Web
+
+link:jekyll.html[Jekyll]

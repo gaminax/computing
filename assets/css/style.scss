@@ -7,22 +7,33 @@ a { color: #aa0;
   &:hover { color: #eee; } }
 blockquote { color: #888; }
 table { color: #ccc; }
-table { tr { &:nth-child(even) { background-color: #444; } } }
+table { tr { &:nth-child(even) { background-color: #040; } } }
+table { th {  background-color: #003a00; } }
 h1 , h2 , h3, h4, h5 {
-    font-family: 'Flamenco', 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: #faa;
 //     color: $brand-color;
 }
 body {
     font-family: 'IBM Plex Serif', 'Noto Serif', serif ;
-    color: #eee;
+    color: #ddd;
     background-color:#030;
 //    color: #bbb;
 //    background-color:#323;
 }
 // a { color: #29f; }
-pre, code { background-color: #080; }
+pre, code { background-color: #030; }
 .site-title { &,&:visited { color: #aaa; } }
-.site-nav { background-color: #444; }
-.menu-icon  { > svg path { fill: #888; } }
-.page-link { color: #bbb; }
+.site-nav { background-color: #030;
+  .menu-icon  { > svg path { fill: #888; } }
+  .page-link { color: #bbb; }
+}
+.footer-col-wrapper {
+    color: #bbb;
+}
+.post-meta { color: #bbb; }
+
+
+// syntax-highlighting
+.highlight { background: #050; }
+.highlighter-rouge .highlight { background: #050; }

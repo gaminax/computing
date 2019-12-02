@@ -1,0 +1,36 @@
+---
+layout: default
+date: 2019-12-02
+liquid:
+title: ptGolang
+header: Golang
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../../../index.html">Home/</a></span>
+<span class="small"><a href="../../index.html">Computing/</a></span>
+<span class="small"><a href="../index.html">Languages/</a></span>
+<span class="small">Golang/</span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_golang">Golang</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Golang(2009) designed by some of the creators of the original Unix Operating System (Ken Thompson, Rob Pike, and Rob Griesmer) is a succesor to C.</p>
+</div>
+<div class="paragraph">
+<p>It strives to add as few features as possible to C. It does not follow in the tradition of C++, which has many features.</p>
+</div>
+<div class="paragraph">
+<p>Golang is compiled, but has run time garbage collection.
+( The GC is not as intrusive as that of Java ).</p>
+</div>
+<div class="paragraph">
+<p>Ordering of declarations
+- the declaration order is switched around. One writes 'var x int' or 'x:=int' and not 'int c;'</p>
+</div>
+</div>
+</div>

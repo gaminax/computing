@@ -1,9 +1,9 @@
-link:../../../index.html[Home/]
-link:../../index.html[Computing/]
-link:../index.html[Web/]
-css
+= C S S
+:page-title: CC SS SS
 
-## CSS ( Cascading Style Sheets )
+// link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Web/] css
+
+== CSS ( Cascading Style Sheets )
 CSS(1996) is a means for associating styling/formatting with display content.
 
 

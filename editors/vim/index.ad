@@ -1,5 +1,30 @@
-link:../../index.html[Computing/ ]
-link:../index.html[Editors/ ]
-Vim/
+= Vim
+:page-title: ptVim
+:page-header: Vim
+:no title:
 
-## The Vim Editors
+// link:../../index.html[Computing/ ] link:../index.html[Editors/ ] Vim/
+
+== Vim
+:page-title: Vim
+:no title:
+
+== Windows
+....
+:split filename  - split window and load another file
+ctrl-w up arrow  - move cursor up a window
+ctrl-w ctrl-w    - move cursor to another window (cycle)
+ctrl-w_          - maximize current window
+ctrl-w=          - make all equal size
+10 ctrl-w+       - increase window size by 10 lines
+:vsplit file     - vertical split
+:sview file      - same as split, but readonly
+:hide            - close current window
+:only            - keep only this window open
+....
+
+== Folds
+ select block, then :fold
+ zo - open
+ zc - close
+

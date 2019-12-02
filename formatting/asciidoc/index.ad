@@ -1,31 +1,38 @@
-link:../../../index.html[Home/]
-link:../../index.html[Computing/]
-link:../index.html[Formatting/]
-AsciiDoc/
+= A s c i i D o c
+:no title:
+:page-title: ptAsciiDoc
+:page-header: AsciiDoc
 
-## AsciiDoc
+// link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Formatting/] AsciiDoc/
 
-AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
+== AsciiDoc
 
-```
-[small]##
-link:../../../index.html[Gaminax.github.io]
-link:../../index.html[computing]
-link:../index.html[formatting/]
-##
+AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation. AsciiDoc precedes MarkDown(2004).
 
-*This* +
-_this_ +
-+this+ +
+We will concentrate here on what one needs to write, and describe the output in words.
+
+// [small]## link:../../../index.html[Gaminax.github.io] link:../../index.html[computing] link:../index.html[formatting/] ##
+
+----
+*This* bold text +
+_this_ italic text +
++this+ monospace text +
+----
 
 
-
-.an asciidoc paragraph
+.a normal asciidoc paragraph
+There is no markup. The text flows as is normally done with paragraphs.
+----
 This is sentence one.
 And this is sentence two.
+----
 
 .a list
+----
 - one
 - two
 - three
-```
+----
+
+link:2019-11-26-AsciiDoc-Paragraphs.html[AsciiDoc Paragraphs]
+

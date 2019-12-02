@@ -1,12 +1,12 @@
----
----
+= r u b y
+:page-title: rr uu bb yy
 
 link:../../../index.html[Home/]
 link:../../index.html[Computing/]
 link:../index.html[Languages/]
 Ruby/
 
-= Ruby
+== Ruby
 
 [source, ruby]
 puts "Hello, World!"

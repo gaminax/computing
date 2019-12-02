@@ -1,0 +1,22 @@
+= C Sharp
+:page-liquid:
+:page-title: ptC Sharp
+:no title:
+
+image::/computing/assets/images/cSharp1.jpg[C Sharp]
+// image::/computing/languages/csharp/cSharp1.jpg[C Sharp]
+// image::cSharp1.jpg[C Sharp]
+
+== C#
+The C# languages, 1996, from Microsoft, inspired by C and Java, has been evolving over the last 20 years with new features, the most notable being the additional of functional programming in 2010.
+
+
+'''
+doctitle = {doctitle}
+
+site.url: {{ site.url }} +
+site.baseurl : {{ site.baseurl }} +
+site.source: {{ site.source }}
+
+page.title : {{ page.title }} +
+page.date: {{ page.date }} +

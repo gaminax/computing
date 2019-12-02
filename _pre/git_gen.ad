@@ -1,0 +1,34 @@
+= GIT
+:no title:
+:foo: Foo1
+
+[small]#link:../../index.html[Home/]#
+[small]#link:../index.html[Computing/]#
+[small]#link:index.html[Linux/]#
+
+// [Home/](../../index.html)
+// [Computing/](../index.html)
+// Linux/
+// link:../../index.html[Home/]
+// link:../index.html[Computing/]
+// link:index.html[Linux/]
+
+== GIT
+
+title = {title}
+
+page-title = {page-title}
+
+no title = {no title}
+
+foo = {foo}
+
+== GIT
+Git is a version control system that works on sets of files and stage a subset for commital to the index.
+
+title = {title}
+
+page-title = {page-title}
+
+fujimar
+

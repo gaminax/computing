@@ -1,0 +1,46 @@
+---
+layout: default
+date: 2019-12-02
+title: EEddiittoorrss
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../../index.html">Home/</a></span>
+<span class="small"><a href="../index.html">Computing/</a></span>
+<span class="small">Editors/</span>
+<span class="small"><a href="emacs">Emacs</a></span>, <span class="small"><a href="vim">Vim</a></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_editors">Editors</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We are interested in text editors and not Word Processors.</p>
+</div>
+<div class="paragraph">
+<p>Text Editors have an underlying text format of characters and lines, while Word Processors each have their own underlying format. For example OpenOffice has an underlying XML format. The fact that XML has an underlying text format does not make OpenOffice a text editor.
+What OpenOffice edits is XML format and not text format.
+Inkscape manipulates XML/SVG format.</p>
+</div>
+<div class="paragraph">
+<p>An XML editor can only manipulate the text within the constraints of keeping the XML format.
+Having an access to the underlying text format enables its manipulation in an way.</p>
+</div>
+<div class="sect2">
+<h3 id="_vim"><a href="vim/index.html">Vim/</a></h3>
+<div class="paragraph">
+<p>Vim began as the Unix command line editor called <strong>ed</strong>.
+One can go into ed mode with a <code>Q</code> for quit vi mode.
+One leaves ed mode with a <code>vi</code> command.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_emacs"><a href="emacs/index.html">Emacs/</a></h3>
+<div class="paragraph">
+<p>The emacs editor.</p>
+</div>
+</div>
+</div>
+</div>

@@ -1,8 +1,10 @@
-[Home/](../../index.html)
-[Computing/](../index.html)
-Linux/
+= l i n u x
+:page-title: ll ii nn uu xx
+:no title:
 
-## Linux
+// link:../../index.html[Home/] link:../index.html[Computing/] Linux/
+
+== Linux
 The Linux(1991) Operating System derives from Unix(1970s, at Bell Labs ).
 
-- [git](git.html)
+link:./git.html[git]

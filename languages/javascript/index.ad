@@ -1,9 +1,44 @@
+= Javascript
+:page-liquid:
+:page-title: ptJavaScript
+:page-header: JavaScript
+
+// :page-title: ""  <--- this works, and {doctitle} is still there.
+// :no title:
+// :page-title: jj aa vv aa ss cc rr ii pp tt
+// :page-title!:
+
+////
 link:../../../index.html[Home/]
 link:../../index.html[Computing/]
 link:../index.html[Languages/]
 JavaScript/
-
-## JavaScript
+////
 
 JavaScript(1995) is a scripting language: a language that is not compiled before it runs. In 1995, Netscape already had Java, a compiled language, running on their browser, and they wanted to add a scripting language to the browser, so they commissioned JavaScript.
+
+'''
+
+++++
+<br>
+++++
+
+[small]##
+Liquid Substitutions +
+page.title: {{ page.title }} +
+page.header: {{ page.header }} +
+page.doctitle: {{ page.doctitle }} +
+doctitle: {{ doctitle }} +
+page.id: {{ page.id }} +
+page.date: {{ page.date }} +
+page.author: {{ page.author }}
+##
+
+[small]##
+AsciiDoc Substitutions +
+doctitle = {doctitle} +
+id = {id} +
+author = {author} +
+revdate = {revdate}
+##
 

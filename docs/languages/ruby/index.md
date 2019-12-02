@@ -1,0 +1,31 @@
+---
+layout: default
+date: 2019-12-02
+title: rr uu bb yy
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../../../index.html">Home/</a></span>
+<span class="small"><a href="../../index.html">Computing/</a></span>
+<span class="small"><a href="../index.html">Languages/</a></span>
+<span class="small">Ruby/</span></p>
+</div>
+<div class="paragraph">
+<p><a href="../../../index.html">Home/</a>
+<a href="../../index.html">Computing/</a>
+<a href="../index.html">Languages/</a>
+Ruby/</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ruby">Ruby</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-ruby" data-lang="ruby">puts "Hello, World!"</code></pre>
+</div>
+</div>
+</div>
+</div>

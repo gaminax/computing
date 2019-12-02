@@ -1,8 +1,14 @@
-link:../../index.html[Home/]
-link:../index.html[Computing/]
-Formatting/
+= f o r m a t t i n g
+:page-header:
 
-## Formatting
+// :no title:
+// link:../../index.html[Home/] link:../index.html[Computing/] Formatting/
+
+== Formatting
 Source text has styling added to it before it is rendered on a display.
 
-link:asciidoc/index.html[AsciiDoc/]
+== Markup
+
+// link:asciidoc/index.html[AsciiDoc/]
+
+// link:rimu/index.html[Rimu/]

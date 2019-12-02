@@ -1,0 +1,15 @@
+= Golang
+:page-liquid:
+:page-title: ptGolang
+:page-header: Golang
+
+== Golang
+Golang(2009) designed by some of the creators of the original Unix Operating System (Ken Thompson, Rob Pike, and Rob Griesmer) is a succesor to C.
+
+It strives to add as few features as possible to C. It does not follow in the tradition of C++, which has many features.
+
+Golang is compiled, but has run time garbage collection.
+( The GC is not as intrusive as that of Java ).
+
+Ordering of declarations
+- the declaration order is switched around. One writes 'var x int' or 'x:=int' and not 'int c;'

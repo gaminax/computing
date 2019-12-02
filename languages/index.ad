@@ -1,12 +1,36 @@
----
----
+= Languages
+:page-title: ptLanguages
+:no title:
 
+////
 link:../../index.html[home/]
 link:../index.html[computing/]
 languages/
+////
 
 ## Languages
 
+////
 link:javascript/index.html[JavaScript/] +
-link:ruby/index.html[Ruby]
+link:ruby/index.html[Ruby] +
+link:csharp/index.html[C Sharp]
+////
+
+### Language Features
+Many languages are having features added to them constantly.
+Functional Programming features have been added to Java and CSharp.
+
+Many languages are converging, with the same set of universal features.
+When languages have the same features, the only difference is the syntactic sugaring.
+
+One language that bucks the trend is Golang, which makes a virtue of simplicity.
+It takes pride in having as few features as possible.
+Simple is no easy.
+
+### Over Specification.
+Does more specifying really make for improvement?
+TypeScript adds a Java like object layer to JavaScript, changing the basic object types of JavaScript in the process.
+
+The Specification is the definition, and is often executable.
+What then is the difference between the specification and the program?
 

@@ -1,0 +1,47 @@
+---
+layout: default
+date: 2019-12-02
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../../index.html">Home/</a></span>
+<span class="small"><a href="../index.html">Computing/</a></span>
+<span class="small"><a href="index.html">Linux/</a></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git">GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>title = {title}</p>
+</div>
+<div class="paragraph">
+<p>page-title = {page-title}</p>
+</div>
+<div class="paragraph">
+<p>no title = {no title}</p>
+</div>
+<div class="paragraph">
+<p>foo = Foo1</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_git_2">GIT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Git is a version control system that works on sets of files and stage a subset for commital to the index.</p>
+</div>
+<div class="paragraph">
+<p>title = {title}</p>
+</div>
+<div class="paragraph">
+<p>page-title = {page-title}</p>
+</div>
+<div class="paragraph">
+<p>fujimar</p>
+</div>
+</div>
+</div>

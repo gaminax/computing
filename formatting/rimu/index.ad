@@ -1,9 +1,10 @@
-link:../../../index.html[Home/]
-link:../../index.html[Computing/]
-link:../index.html[Formatting/]
-Rimu/
+= r i m u
+:page-title: Rimu
+:no title:
 
 
-## Rimu
+// link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Formatting/] Rimu/ 
+
+== Rimu
 Rimu(2012), designed by Stuart Rackham, the inventor of AsciiDoc(2001), is an HTML oriented markup language.
 

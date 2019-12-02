@@ -1,0 +1,135 @@
+---
+layout: default
+date: 2019-12-02
+title: Computing/
+liquid:
+---
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="small"><a href="../index.html">Home/</a></span>
+<span class="small">Computing/</span>
+<span class="small"><a href="editors">Editors</a></span>, <span class="small"><a href="formatting">Formatting</a></span>, <span class="small"><a href="languages">Languages</a></span>, <span class="small"><a href="linux">Linux</a></span>, <span class="small"><a href="web">Web</a></span></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_computing">Computing</h2>
+<div class="sectionbody">
+<div class="quoteblock abstract">
+<blockquote>
+A general description of topics in computing related to web publishing.
+</blockquote>
+</div>
+<div class="sect2">
+<h3 id="_web"><a href="web/index.html">Web/</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="web/css/index.html">CSS/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="web/html/index.html">HTML/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="web/svg/index.html">SVG/</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="web/jekyll.html">The Jekyll Web Page Generator and Server</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_formatting"><a href="formatting/index.html">Formatting/</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="formatting/asciidoc/index.html">AsciiDoc/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="formatting/rimu/index.html">Rimu/</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_editors"><a href="editors/index.html">Editors</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="editors/vim/index.html">Vim/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="editors/emacs/index.html">Emacs/</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_languages"><a href="languages/index.html">Languages</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="languages/javascript/index.html">JavaScript/</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="languages/ruby/index.html">Ruby</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_linux"><a href="linux/index.html">Linux</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="linux/git.html">git</a></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_posts">Posts</h2>
+<div class="sectionbody">
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+</div>

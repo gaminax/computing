@@ -1,10 +1,10 @@
-link:../../../index.html[Home/]
-link:../../index.html[Computing/]
-link:../index.html[Web/]
-Html
+= H T M L
+:page-title: HH TT MM LL
+:no title:
 
+// link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Web/] Html
 
-## HTML ( Hyptertext Markup Language )
+== HTML ( Hyptertext Markup Language )
 HTML(1993) is a textual means for marking up text for display.
 
 
