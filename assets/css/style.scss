@@ -26,10 +26,10 @@ table {
 }
 table {
   tr {
-  &:nth-child(even) {
-    background-color: #040;
+    &:nth-child(even) {
+      background-color: #040;
+    }
   }
-}
 }
 
 table {

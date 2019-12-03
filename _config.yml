@@ -1,6 +1,6 @@
 title: Gaminax
 description: Topics in Web Publishing, Formatting, Editors and Programming Languages.
-theme: minima
+remote_theme: jekyll/minima
 google_analytics: UA-73093345-1
 show_downloads: false
 github_username: gaminax
@@ -8,7 +8,6 @@ github: [metadata]
 exclude: [docs]
 source: docs
 baseurl: /computing
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
