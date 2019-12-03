@@ -22,7 +22,7 @@ It is easy to make text noisy.
 
 == Normal Paragraphs
 These are the default and need no formatting.
-The must begin against the left margin.
+The text must begin against the left margin.
 
 == Literal Paragraphs ( Dots )
 Rendered as monospaced text with the same background and no border.
@@ -36,7 +36,7 @@ Get them by:
 Putting a literal header line before the paragraph
 
 ....
-Surrounding the paragraph with lines of four dots.
+Surrounding the paragraph(s) with lines of four dots '....'.
 ....
 ----
 
@@ -44,8 +44,11 @@ Surrounding the paragraph with lines of four dots.
 Render the text with more backgound.
 
 ....
+[listing]
+Put a listing header before the paragraph, or
+
 ----
-Get listing paragrpahs with surrounding dashes '----' or a [listing] header.
+Enclose the paragraph(s) with lines of four dashes '----'
 ----
 ....
 
@@ -64,17 +67,15 @@ In the withering light.
 
 == Admonition Paragraphs
 Add a TIP:, NOTE:, IMPORTANT:, WARNING:, CAUTION: at the beginning of the paragraph.
+These are derived from DocBook.
 
 ----
 TIP: This is a tip paragraph.
 
 NOTE: This is a note paragraph.
-----
 
-Or use the [NOTE] notation.
-----
 [NOTE]
-This is a note paragraph.
+Or use a [NOTE] header.
 ----
 
 You can specify the icon to be used in the admonition, with
@@ -94,5 +95,5 @@ Surround the text (one or more paragraphs) with a header and footer.
 **** Sidebar Block
 ____ Quote Block ( with word wrapping )
 ==== Example Block
---   Open Block
+--   Open Block ( the type is given by the header )
 

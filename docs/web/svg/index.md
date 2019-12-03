@@ -57,6 +57,8 @@ There is an interesting interview with him about the design of SVG at the Adobe 
 <circle cx=50 cy=50 r=05 style="fill:black;" />
 <ellipse cx=50 cy=100 rx=35 ry=25 style="fill:darkgreen;" />
 </svg>
+
+<br>
 <div class="sect3">
 <h4 id="_notes">Notes</h4>
 <div class="ulist">

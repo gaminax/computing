@@ -18,21 +18,36 @@ header: AsciiDoc
 <h2 id="_asciidoc">AsciiDoc</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation. AsciiDoc precedes MarkDown(2004).</p>
+<p>AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
+AsciiDoc preceded MarkDown(2004).</p>
 </div>
 <div class="paragraph">
 <p>We will concentrate here on what one needs to write, and describe the output in words.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_formatting_at_the_word_level">Formatting at the Word Level</h2>
+<div class="sectionbody">
 <div class="listingblock">
 <div class="content">
-<pre>*This* bold text +
-_this_ italic text +
-+this+ monospace text +</pre>
+<pre>A *bold* word. +
+**A bold sentence**. +
+An _italic_ word. +
+__An italic sentence.__ +
+A +monospace+ word +
+++Monospace text.++ +</pre>
 </div>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_formatting_at_the_paragraph_level">Formatting at the Paragraph Level</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_a_normal_asciidoc_paragraph">A Normal Asciidoc Paragraph</h3>
 <div class="paragraph">
-<div class="title">a normal asciidoc paragraph</div>
-<p>There is no markup. The text flows as is normally done with paragraphs.</p>
+<p>There is no markup. The words are wrapped to fit the space available.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -40,8 +55,35 @@ _this_ italic text +
 And this is sentence two.</pre>
 </div>
 </div>
+<div class="literalblock">
+<div class="content">
+<pre>....
+Literal Text
+....</pre>
+</div>
+</div>
 <div class="listingblock">
-<div class="title">a list</div>
+<div class="content">
+<pre>----
+Listing Text
+----</pre>
+</div>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>Example Text</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_list">A list</h3>
+<div class="listingblock">
 <div class="content">
 <pre>- one
 - two
@@ -49,7 +91,8 @@ And this is sentence two.</pre>
 </div>
 </div>
 <div class="paragraph">
-<p><a href="2019-11-26-AsciiDoc-Paragraphs.html">AsciiDoc Paragraphs</a></p>
+<p>Here is some more on <a href="2019-11-26-AsciiDoc-Paragraphs.html">AsciiDoc Paragraphs</a></p>
+</div>
 </div>
 </div>
 </div>

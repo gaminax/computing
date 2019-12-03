@@ -7,32 +7,60 @@
 
 == AsciiDoc
 
-AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation. AsciiDoc precedes MarkDown(2004).
+AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
+AsciiDoc preceded MarkDown(2004).
 
 We will concentrate here on what one needs to write, and describe the output in words.
 
 // [small]## link:../../../index.html[Gaminax.github.io] link:../../index.html[computing] link:../index.html[formatting/] ##
 
+== Formatting at the Word Level
 ----
-*This* bold text +
-_this_ italic text +
-+this+ monospace text +
+A *bold* word. +
+**A bold sentence**. +
+An _italic_ word. +
+__An italic sentence.__ +
+A +monospace+ word +
+++Monospace text.++ +
 ----
 
+== Formatting at the Paragraph Level
 
-.a normal asciidoc paragraph
-There is no markup. The text flows as is normally done with paragraphs.
+=== A Normal Asciidoc Paragraph
+There is no markup. The words are wrapped to fit the space available.
+
 ----
 This is sentence one.
 And this is sentence two.
 ----
 
-.a list
+[literal]
+--
+....
+Literal Text
+....
+--
+
+[listing]
+--
+----
+Listing Text
+----
+--
+
+[example]
+--
+====
+Example Text
+====
+--
+
+=== A list
 ----
 - one
 - two
 - three
 ----
 
-link:2019-11-26-AsciiDoc-Paragraphs.html[AsciiDoc Paragraphs]
+Here is some more on link:2019-11-26-AsciiDoc-Paragraphs.html[AsciiDoc Paragraphs]
 

@@ -25,7 +25,7 @@ It is easy to make text noisy.</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>These are the default and need no formatting.
-The must begin against the left margin.</p>
+The text must begin against the left margin.</p>
 </div>
 </div>
 </div>
@@ -45,7 +45,7 @@ Get them by:</p>
 Putting a literal header line before the paragraph
 
 ....
-Surrounding the paragraph with lines of four dots.
+Surrounding the paragraph(s) with lines of four dots '....'.
 ....</pre>
 </div>
 </div>
@@ -59,8 +59,11 @@ Surrounding the paragraph with lines of four dots.
 </div>
 <div class="literalblock">
 <div class="content">
-<pre>----
-Get listing paragrpahs with surrounding dashes '----' or a [listing] header.
+<pre>[listing]
+Put a listing header before the paragraph, or
+
+----
+Enclose the paragraph(s) with lines of four dashes '----'
 ----</pre>
 </div>
 </div>
@@ -88,22 +91,17 @@ In the withering light.</pre>
 <h2 id="_admonition_paragraphs">Admonition Paragraphs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Add a TIP:, NOTE:, IMPORTANT:, WARNING:, CAUTION: at the beginning of the paragraph.</p>
+<p>Add a TIP:, NOTE:, IMPORTANT:, WARNING:, CAUTION: at the beginning of the paragraph.
+These are derived from DocBook.</p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre>TIP: This is a tip paragraph.
 
-NOTE: This is a note paragraph.</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Or use the [NOTE] notation.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>[NOTE]
-This is a note paragraph.</pre>
+NOTE: This is a note paragraph.
+
+[NOTE]
+Or use a [NOTE] header.</pre>
 </div>
 </div>
 <div class="paragraph">
@@ -131,7 +129,7 @@ This is a note paragraph.</pre>
 **** Sidebar Block
 ____ Quote Block ( with word wrapping )
 ==== Example Block
---   Open Block</pre>
+--   Open Block ( the type is given by the header )</pre>
 </div>
 </div>
 </div>

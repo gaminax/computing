@@ -1,35 +1,81 @@
-= Vim
-:page-title: ptVim
-:page-header: Vim
-:no title:
+= SVG
+:page-title: ptSVG
+:page-header: Svg
 
 [small]#link:../../../index.html[Home/]#
 [small]#link:../../index.html[Computing/]#
-[small]#link:../index.html[Editors/]#
-[small]#Vim/#
+[small]#link:../index.html[Web/]#
+[small]#Svg/#
 
-// link:../../index.html[Computing/ ] link:../index.html[Editors/ ] Vim/
+// link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Web/] SVG/
 
-== Vim
-:page-title: Vim
-:no title:
+// page-title = {page-title} +
+// no title = {no title}
 
-== Windows
-....
-:split filename  - split window and load another file
-ctrl-w up arrow  - move cursor up a window
-ctrl-w ctrl-w    - move cursor to another window (cycle)
-ctrl-w_          - maximize current window
-ctrl-w=          - make all equal size
-10 ctrl-w+       - increase window size by 10 lines
-:vsplit file     - vertical split
-:sview file      - same as split, but readonly
-:hide            - close current window
-:only            - keep only this window open
-....
+== SVG (Scalar Vector Graphics)
+SVG(1999) is an XML image format for two dimensional images that uses vectors to describe shapes.
+SVG is well integrated into HTML;
+It is now recognized by most web browsers.
 
-== Folds
- select block, then :fold
- zo - open
- zc - close
+SVG documents can be styled with CSS.
+(See the style element in the example below. )
+
+SVG images can be placed within other SVG images ( SVG images are _composable_ ) and within html documents.
+
+Jon Ferraiolo was one of the designers of SVG.
+There is an interesting interview with him about the design of SVG at the Adobe web site.
+( https://www.adobe.com/devnet/svg/articles/svg-jon-ferraiolo-interview.html[Jon Ferraiolo Interview, Oct 2012] )
+
+=== Example
+----
+<svg width=100 height=100 viewBox="0 0 100 100" >
+<rect x=00 y=00 width=100 height=080 style="fill:red;" />
+<rect x=00 y=80 width=100 height=100 style="fill:darkred;" />
+<circle cx=50 cy=50 r=25 style="fill:blue;" />
+<circle cx=50 cy=50 r=05 style="fill:black;" />
+<ellipse x=50 y=100 rx=35 ry=25 style="fill:green;" />
+</svg>
+----
+
+++++
+<br>
+
+<svg width=100 height=100 viewBox="0 0 100 100" > +
+<rect x=00 y=00 width=100 height=080 style="fill:red;" />
+<rect x=00 y=80 width=100 height=100 style="fill:darkred;" />
+<rect y=80 width=100 height=100 style="fill:darkred;" />
+<circle cx=50 cy=50 r=25 style="fill:blue;" />
+<circle cx=50 cy=50 r=05 style="fill:black;" />
+<ellipse cx=50 cy=100 rx=35 ry=25 style="fill:darkgreen;" />
+</svg>
+
+<br>
+++++
+
+==== Notes
+- All images fit within rectangles.
+- Numbers are supposed to be enclosed in double quotes. "50" and not 50, but it often works without the quotes.
+- Rectangle is abbreviated to 'rect', but none of the other shapes are abbreviated.
+- The rect element ends with a '/>' and not a '>'.
+- The y axis points down ( Like Java 2D ). Angles go clockwise.
+- The svg declaration specifies the width and height of the image that will be inserted into the html context.
+The lines enclosed by the <svg> ... </svg> create the image, which may be bigger or smaller than the region of the inserted image.
++
+First the image is created, and then a slice taken and resized according to the viewBox, and inserted into the reserved image area.
+The viewBox specifies the x, y points, width and height of the slice taken from the created image.
+
+=== Composability
+
+----
+<svg>
+<defs>
+<hatWoman>
+</hatWoman>
+<xlink href="#hatWoman" />
+</defs>
+<hatwoman1>
+<hatwoman2>
+<hatwoman3>
+</svg>
+----
 
