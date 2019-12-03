@@ -45,7 +45,7 @@ ctrl-w=          - make all equal size
 <div class="literalblock">
 <div class="content">
 <pre>select block, then :fold
-zo - ope
+zo - open
 zc - close</pre>
 </div>
 </div>

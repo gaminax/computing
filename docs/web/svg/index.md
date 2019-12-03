@@ -47,6 +47,8 @@ There is an interesting interview with him about the design of SVG at the Adobe 
 &lt;/svg&gt;</pre>
 </div>
 </div>
+<br>
+
 <svg width=100 height=100 viewBox="0 0 100 100" > +
 <rect x=00 y=00 width=100 height=080 style="fill:red;" />
 <rect x=00 y=80 width=100 height=100 style="fill:darkred;" />

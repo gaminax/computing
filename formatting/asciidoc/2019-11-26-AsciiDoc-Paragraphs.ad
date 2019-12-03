@@ -1,82 +1,98 @@
 = 26 AsciiDoc Paragraphs
-:page-title: ptAsciiDoc Paragraphs
+:page-title: AsciiDoc Paragraphs
 :page-layout: page
+:page-liquid:
 
-[small]##
-foo={foo} +
-title={title}
-##
 
+// :showtitle:
 // :page-categories: [formatting,asciidoc]
 // :foo: Foo
 // :page-title: Page Title AsciiDoc Paragraphs
 // :page-title: 26-AsciiDoc-Paragraphs
-// == {title}
-== AsciiDoc Paragraphs
-There are several kinds of paragraphs.
+// [big]#*{page-title}*#
 
-=== Normal Paragraphs
-- The Default.
-- No formatting needed.
-- Begin against left margin.
 
-=== Literal Paragraphs
-- Rendered as monospaced text with the same background and no border.
-- No formatting or substitutions are made to the text..
+++++
 
-- Get it with:
-  - Indented text. Only the to indent the first line, and that can be done with a single space.
-  - put a `[literal]` line before the paragraph
-  - surround the paragraph with dotted `....` lines.
+<h1> {{ page.title }} </h1>
+++++
 
-=== Listing Paragraphs (Dashes) 
-Render the text with xxx.
+There are several kinds of paragraphs, and each is rendered differently.
+It is easy to make text noisy.
+
+== Normal Paragraphs
+These are the default and need no formatting.
+The must begin against the left margin.
+
+== Literal Paragraphs ( Dots )
+Rendered as monospaced text with the same background and no border.
+No formatting or substitutions are made to the text.
+Get them by:
 
 ----
-Get it with containing dashes '----'.
+ Indenting the first line slightly.
+
+[literal]
+Putting a literal header line before the paragraph
+
+....
+Surrounding the paragraph with lines of four dots.
+....
 ----
 
-=== Text Quote and Verse Quote Paragraphs
+== Listing Paragraphs (Dashes) 
+Render the text with more backgound.
+
+....
+----
+Get listing paragrpahs with surrounding dashes '----' or a [listing] header.
+----
+....
+
+== Text Quote and Verse Quote Paragraphs
 Text quotes flow the text; verse quotes keep line breaks.
 
 ----
 [quote, Josephus, Antiquities]
 The quote on piety and righteousness.
-----
 
-----
 [verse, Blake, Oh Rose]
 Oh rose thou art sick,
 In the withering light.
 ----
 
 
-=== Admonition Paragraphs
-Add a single quote to: TIP, NOTE, IMPORTANT, WARNING, CAUTION at the beginning of the paragraph.
+== Admonition Paragraphs
+Add a TIP:, NOTE:, IMPORTANT:, WARNING:, CAUTION: at the beginning of the paragraph.
 
-[literal]
+----
+TIP: This is a tip paragraph.
+
 NOTE: This is a note paragraph.
+----
 
 Or use the [NOTE] notation.
-
-[literal]
+----
 [NOTE]
 This is a note paragraph.
+----
 
-You can specify the icon to be used, with [icon="./images/icons/note.png:].
+You can specify the icon to be used in the admonition, with
 
+----
+[NOTE,icon="./images/icons/note.png"].
+----
 
-=== Delimited Blocks
+== Delimited Blocks
+Surround the text (one or more paragraphs) with a header and footer.
+
 [literal]
-//// comment
+//// Comment
 ++++ Passthrough Block
 ---- Listing Block
 .... Literal Block
 **** Sidebar Block
-____ Quote Block
-
+____ Quote Block ( with word wrapping )
 ==== Example Block
-
 --   Open Block
-
 

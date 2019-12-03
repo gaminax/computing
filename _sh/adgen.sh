@@ -88,7 +88,7 @@ read h
 
 # read in the asciidoc macros
 nv=0
-while read line1; do
+while IFS= read line1; do
     if [ "${line1:0:1}" != ":" ] ; then break; fi
     vars+=("$line1")
     ((nv++))
@@ -174,7 +174,7 @@ if [ "$fe1" = "index.ad" ] ; then printf "[small]#$RLastSlash#\n" ; fi
     printf "%s\n" "$line1"
 #fi
 
-while read line; do
+while IFS=  read -r line; do
     printf "%s\n" "$line"
 done
 } |  tee "_pre/${f}_gen.ad" | asciidoctor -s - >>"$dbrfe2"
