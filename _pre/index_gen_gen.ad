@@ -1,23 +1,39 @@
-= Web
-:page-title: ptWeb
+= Vim
+:page-title: ptVim
 :page-header:
+:no title:
 
-[small]#link:../../index.html[Home/]#
-[small]#link:../index.html[Computing/]#
-[small]#link:index.html[Web/]#
-[small]#link:css[Css]#, [small]#link:html[Html]#, [small]#link:svg[Svg]#
-[small]#link:../../index.html[Home/]#
-[small]#link:../index.html[Computing/]#
+[small]#link:../../../index.html[Home/]#
+[small]#link:../../index.html[Computing/]#
+[small]#link:../index.html[Editors/]#
+[small]#link:index.html[Vim/]#
 
-// :no title:
-//  link:../../index.html[Home/] link:../index.html[Computing/] Web/
+[small]#link:../../../index.html[Home/]#
+[small]#link:../../index.html[Computing/]#
+[small]#link:../index.html[Editors/]#
 
-[small]##
-link:css/index.html[CSS/]
-link:svg/index.html[SVG/]
-link:html/index.html[HTML/]
-##
+// link:../../index.html[Computing/ ] link:../index.html[Editors/ ] Vim/
 
-== Web
+== Vim
+:page-title: Vim
+:no title:
 
-link:jekyll.html[Jekyll]
+== Windows
+....
+:split filename  - split window and load another file
+ctrl-w up arrow  - move cursor up a window
+ctrl-w ctrl-w    - move cursor to another window (cycle)
+ctrl-w_          - maximize current window
+ctrl-w=          - make all equal size
+10 ctrl-w+       - increase window size by 10 lines
+:vsplit file     - vertical split
+:sview file      - same as split, but readonly
+:hide            - close current window
+:only            - keep only this window open
+....
+
+== Folds
+ select block, then :fold
+ zo - ope
+ zc - close
+

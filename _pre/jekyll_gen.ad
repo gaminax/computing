@@ -17,7 +17,7 @@ Jekyll is a Ruby gem.
 The configuration is specified in the file: *_config.yml*.
 
 It is easier to get Jekyll working if one does not use Bundler.
-One can avoid the need for a Gemfile, and the use of Bundler, by specifying the required gems in *_config.yml*, and not the Gemfile.
+One can avoid the need for a Gemfile, and the use of Bundler, by specifying the required gems in *_config.yml*, and not the ruby Gemfile.
 
 No additional gems are needed to generate a website using the minima theme, since this comes with Jekyll.
 The default built in Jekyll theme is minima.

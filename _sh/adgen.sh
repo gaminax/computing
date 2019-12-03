@@ -19,19 +19,20 @@ b="$2"
 rfe1="$3"
 argN=$#
 args=("$@")
-i=0; for arg in ${args[@]} ; do printf "%d %s\n" $i "${args[$i]}"; ((i++)); done
+# print args:
+# i=0; for arg in ${args[@]} ; do printf "%d %s\n" $i "${args[$i]}"; ((i++)); done
 
 if [ $argN -eq 1 ] ; then # use defaults for locations
     rd=`dirname $0`
     cd $rd
     cd ..
     d=`pwd`
-    echo d=$d, rd=$rd
+    # echo d=$d, rd=$rd
     if [ ! -d "$d" ]; then echo directory $d not found; exit 1; fi
     d1="." # use the current directory, found from location of script
     b=docs # use the docs directory
     rfe1="${args[0]}"
-    echo d=$d, rd=$rd, b=$b, d1=$d1
+    # echo d=$d, rd=$rd, b=$b, d1=$d1
 elif [ $argN -ne 3 ] ; then
     echo need 3 args
     exit 1
@@ -44,7 +45,7 @@ if [ "$r" = "${rfe1}" ] ; then
 fi
 
 rf="${rfe1%.*}"
-e2="md"
+e2="html"
 rfe2="$rf.$e2"
 # echo e1=$e1, e2=$e2
 
@@ -55,7 +56,9 @@ drfe1=$d1/$rfe1
 drf=$d1/$rf
 if [ ! -f $drfe1 ] ; then echo no input file pwd=`pwd`, drfe1="$drfe1"; exit 1; fi 
 dbrfe2=$d1/$b/$rfe2
+echo $dbrfe2 1>&2
 # echo drfe1=$drfe1, dbrfe2=$dbrfe2,d1/b/r=$d1/$b/$r 
+
 mkdir -p "$d1/$b/$r"
 if [ $? -gt 0 ] ; then
     echo cannot mkdir $d1/$b/$r 1>&2; exit 1
@@ -106,7 +109,7 @@ if [ $nv2 -ne $nv ] ; then echo nv=$nv, nv2=$nv2; exit 1; fi
   # promote "page-" variables to yml header.
   while [ $i -lt $nv ] ; do
       line="${vars[$i]}"
-      echo "<$line>" 1>&2
+      # echo "<$line>" 1>&2
       if [ "${line:0:6}" = ":page-" ] ; then printf "${line:6}\n"; fi
       ((i++))
   done
@@ -144,7 +147,7 @@ while [ $i -lt $n ] ; do
     ((i++))
 done
 
-echo r="$r" 1>&2
+# echo r="$r" 1>&2
 if [ "$r" = "." ]; then rLast=computing;
 else rLast="${r##*/}"; fi
 RLast=`title "$rLast"`
@@ -158,7 +161,7 @@ if [ "$fe1" = "index.ad" ] ; then printf "[small]#$RLastSlash#\n" ; fi
       if [ "$rr" = assets ] ; then continue; fi
       if [ "$rr" = docs ] ; then continue; fi
       Rr=`title "$rr"`
-      echo rr="$rr", Rr="$Rr" 1>&2
+      # echo rr="$rr", Rr="$Rr" 1>&2
       printf "%s%s" "$sep" "[small]#link:$rr[$Rr]#"
       sep=", "
     fi
