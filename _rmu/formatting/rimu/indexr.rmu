@@ -1,0 +1,52 @@
+.-macros -spans -specials -container
+..
+---
+layout: page
+title: tRimu
+---
+..
+<style>
+h1, h2, h3 {
+  margin: 10px 0;
+  color: yellow;
+  }
+</style>
+
+// header: hRimu
+
+[Computing/](../../index.html)
+[Formatting/](../index.html)
+[Rimu/](index.html)
+indexr
+
+<div class="a" > <div class="b" >
+
+![Rimu Pic](/computing/assets/images/rimu.svg)
+</div> <div>
+
+# Rimu
+
+Rimu(2012) is an HTML oriented markup language.
+</div></div>
+
+."color:red"
+This is rimu red.
+
+."font-size:2em"
+This is rimu 2em
+
+<svg width=700 height=300 viewBox="0 0 700 300">
+<rect width=700 height=200 x=0 y=000 style="fill:lightblue;" />
+<rect width=700 height=100 x=0 y=200 style="fill:red;" />
+<polygon points="10 20, 20 40, 30 60, 35 70, 30 80, 20 85" style="fill:#eee" />
+</svg>
+
+<br>
+
+.python
+``
+x = 1
+if x == 1:
+    print "x is 1."
+``
+

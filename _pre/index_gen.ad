@@ -1,14 +1,55 @@
-= l i n u x
-:page-title: ll ii nn uu xx
+= Unix
+:page-title: ptUnix
 :no title:
 
 [small]#link:../../index.html[Home/]#
 [small]#link:../index.html[Computing/]#
-[small]#Linux/#
+[small]#Unix/#
+
+== Unix
+The Unix
+footnote:[The Unix tradmark is owned by the Open Group.]
+Operating System
+consists of a kernel, and associated software.
 
 // link:../../index.html[Home/] link:../index.html[Computing/] Linux/
+[cols="1a,3a"]
+|===
+| image:/computing/assets/images/Tux.svg[Tux]
+| Linux is one of the Kernels.
+| image:/computing/assets/images/gnuGoat.svg[GNU Goat]
+| GNU ( Gnu's not Unix ) is one implementation of the associated software.
+|===
 
-== Linux
-The Linux(1991) Operating System derives from Unix(1970s, at Bell Labs ).
+////
+++++
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="300" height="300" >
+<defs>
+</defs>
+</svg>
+++++
+////
+
+Unix originated from Bell Labs in the 1970s.
+
+The Unix OS has many derivates, among which are Linux, and Mac OS.
+Apple macOS is a variant of Berkeley BSD Unix.
+
+Unix operating systems are written in C.
+
+
+=== Command Line Utilities
+
+==== grep
+.Recursive search for fujimar in text files, printing surrounding text with line numbers
+
+    grep -iIrn fujimar *
+
+
+=== Other Software
 
 link:./git.html[git]
+

@@ -3,8 +3,11 @@
 :page-title: ptGolang
 :page-header: Golang
 
+image::/computing/assets/images/go-logo-blue.svg[go logo]
 == Golang
-Golang(2009) designed by some of the creators of the original Unix Operating System (Ken Thompson, Rob Pike, and Rob Griesmer) is a succesor to C.
+Golang(2009), from Google, is a succesor to C.
+It was designed by some of the creators of the original Unix Operating System
+- Ken Thompson, Rob Pike, and Rob Griesmer.
 
 It strives to add as few features as possible to C. It does not follow in the tradition of C++, which has many features.
 

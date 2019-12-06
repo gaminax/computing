@@ -9,6 +9,11 @@ Source text has styling added to it before it is rendered on a display.
 
 == Markup
 
-// link:asciidoc/index.html[AsciiDoc/]
+'''
 
-// link:rimu/index.html[Rimu/]
+link:asciidoc/index.html[AsciiDoc/]
+
+link:rimu/index.html[Rimu/]
+
+link:xml/index.html[XML/]
+

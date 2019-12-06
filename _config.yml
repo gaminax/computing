@@ -6,7 +6,7 @@ show_downloads: false
 github_username: gaminax
 github: [metadata]
 exclude: [docs]
-source: docs
+// source: docs
 baseurl: /computing
 plugins:
  - jekyll-feed

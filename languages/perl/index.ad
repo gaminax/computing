@@ -1,0 +1,16 @@
+= Perl ( 1987 )
+:page-title: perl
+
+image:/computing/assets/images/republic-of-perl.png[]
+footnote:[The perl logo is owned by O'Reilly, the publisher of the Perl Camel book.]
+
+As of Oct 2019, Perl 6 is called Raku, 'Perl' now means Perl 5.
+
+Perl is ubiquitious in Linux systems.  In the path:
+
+....
+/usr/bin/site_perl
+/usr/bin/vendor_perl
+/usr/bin/core_perl
+....
+

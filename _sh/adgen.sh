@@ -56,7 +56,9 @@ drfe1=$d1/$rfe1
 drf=$d1/$rf
 if [ ! -f $drfe1 ] ; then echo no input file pwd=`pwd`, drfe1="$drfe1"; exit 1; fi 
 dbrfe2=$d1/$b/$rfe2
+
 echo $dbrfe2 1>&2
+
 # echo drfe1=$drfe1, dbrfe2=$dbrfe2,d1/b/r=$d1/$b/$r 
 
 mkdir -p "$d1/$b/$r"

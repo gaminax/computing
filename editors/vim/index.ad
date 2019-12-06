@@ -3,11 +3,10 @@
 :page-header: Vim
 :no title:
 
+
 // link:../../index.html[Computing/ ] link:../index.html[Editors/ ] Vim/
 
-== Vim
-:page-title: Vim
-:no title:
+image::/computing/assets/images/Vimlogo.svg.png[Vim Logo]
 
 == Windows
 ....

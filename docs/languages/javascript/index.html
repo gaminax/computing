@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2019-12-03
+date: 2019-12-06
 liquid:
 title: ptJavaScript
 header: JavaScript
@@ -11,29 +11,42 @@ header: JavaScript
 <span class="small"><a href="../index.html">Languages/</a></span>
 <span class="small">Javascript/</span></p>
 </div>
+</br>
+<svg width=100 height=100 viewBox="0 0 100 100" >
+<rect width=100 height=100 style="fill:yellow;" />
+<text x=030 y=080 style="font-size: 3em;">JS</text>
+</svg>
+<br>
 <div class="paragraph">
-<p>JavaScript(1995) is a scripting language: a language that is not compiled before it runs. In 1995, Netscape already had Java, a compiled language, running on their browser, and they wanted to add a scripting language to the browser, so they commissioned JavaScript.</p>
+<p>JavaScript(1995) is a scripting language: a language that is not compiled before it runs. In 1995, Netscape already had Java, a compiled language, running on their browser, and they wanted to add a scripting language to the browser, so they commissioned JavaScript.
+<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
 </div>
 <hr>
 <br>
 <div class="paragraph">
 <p><span class="small">
 Liquid Substitutions<br>
-page.title: {{ page.title }}<br>
-page.header: {{ page.header }}<br>
-page.doctitle: {{ page.doctitle }}<br>
-doctitle: {{ doctitle }}<br>
-page.id: {{ page.id }}<br>
-page.date: {{ page.date }}<br>
+page.title: {{ page.title }},
+page.header: {{ page.header }},
+page.doctitle: {{ page.doctitle }},
+doctitle: {{ doctitle }},
+page.id: {{ page.id }},
+page.date: {{ page.date }},
 page.author: {{ page.author }}
 </span></p>
 </div>
 <div class="paragraph">
 <p><span class="small">
 AsciiDoc Substitutions<br>
-doctitle = Javascript<br>
-id = {id}<br>
-author = {author}<br>
+doctitle = Javascript,
+id = {id},
+author = {author},
 revdate = {revdate}
 </span></p>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. The Logo shown here is our design - JavaScript has no Logo.
+</div>
 </div>

@@ -22,40 +22,69 @@
 <h1> {{ page.title }} </h1>
 ++++
 
-There are several kinds of paragraphs, and each is rendered differently.
-It is easy to make text noisy.
+Text consists of sequences of one or more paragraphs separated by empty lines.
+When there is no formatting the paragraphs are 'Normal Paragraphs'.
 
-== Normal Paragraphs
+Precede formatted text with a formatting line, such as [literal], [listing], [quote, Lincoln, Address],  [Verse, Poe, Raven]. When you want to apply the same formatting to a sequence of paragraphs, the paragraphs need to be enclosed with a two dash '--' beginning line and a two dash '--' ending line. These surrounding lines are not needed when there is only one paragraph to be formatted.
+
+There are short cut abbreviations for each of the formats.
+Literal, listing, and quote paragraphs are abbreviated by surrounding the formatted text with a '....' line, a '----' line, and a '____' line.
+
+&sect; Normal Paragraphs +
 These are the default and need no formatting.
 The text must begin against the left margin.
+There are several other kinds of paragraphs, and each is rendered differently.
 
-== Literal Paragraphs ( Dots )
-Rendered as monospaced text with the same background and no border.
-No formatting or substitutions are made to the text.
-Get them by:
+It is easy to make text noisy with too much formatting.
 
-----
- Indenting the first line slightly.
+&sect; Literal paragraphs +
+Literal Paragraphs are rendered with indentation, in a monospaced font, and have the same background as normal text.
+
+An easy way to get a literal paragraph is by indenting only the first line.
+Another way is by indenting all of the lines.
+
+Character subsitutions ( e.g. \&sect; )
+and callouts are allowed
 
 [literal]
-Putting a literal header line before the paragraph
+--
+  [literal]
+  Putting a literal header line before the paragraph
+  
+  [literal]
+  --
+  Putting a literal and a general header line
+  before the first paragraph, and
+  
+  a general footer line after the end of the text.
+  --
+  
+  ....
+  Surrounding the paragraph(s) with four dot lines.
+  ....
+  
+   Indenting the first line slightly.
+  xx xx xx
+  xx xx xx
+  
+    Or by indenting all the lines
+    xx xx xx xx xx
+    xx xx xx xx xx
+--
 
-....
-Surrounding the paragraph(s) with lines of four dots '....'.
-....
-----
 
-== Listing Paragraphs (Dashes) 
-Render the text with more backgound.
+== Listing Paragraphs (four dash lines) 
+Render the text with a differing backgound.
 
-....
 [listing]
-Put a listing header before the paragraph, or
+--
+[listing]
+&sect;Put a listing header before the paragraph, or
 
 ----
 Enclose the paragraph(s) with lines of four dashes '----'
 ----
-....
+--
 
 == Text Quote and Verse Quote Paragraphs
 Text quotes flow the text; verse quotes keep line breaks.

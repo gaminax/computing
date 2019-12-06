@@ -15,7 +15,17 @@ link:../index.html[Languages/]
 JavaScript/
 ////
 
+++++
+</br>
+<svg width=100 height=100 viewBox="0 0 100 100" >
+<rect width=100 height=100 style="fill:yellow;" />
+<text x=030 y=080 style="font-size: 3em;">JS</text>
+</svg>
+<br>
+++++
+
 JavaScript(1995) is a scripting language: a language that is not compiled before it runs. In 1995, Netscape already had Java, a compiled language, running on their browser, and they wanted to add a scripting language to the browser, so they commissioned JavaScript.
+footnote:[The Logo shown here is our design - JavaScript has no Logo.]
 
 '''
 
@@ -25,20 +35,20 @@ JavaScript(1995) is a scripting language: a language that is not compiled before
 
 [small]##
 Liquid Substitutions +
-page.title: {{ page.title }} +
-page.header: {{ page.header }} +
-page.doctitle: {{ page.doctitle }} +
-doctitle: {{ doctitle }} +
-page.id: {{ page.id }} +
-page.date: {{ page.date }} +
+page.title: {{ page.title }},
+page.header: {{ page.header }},
+page.doctitle: {{ page.doctitle }},
+doctitle: {{ doctitle }},
+page.id: {{ page.id }},
+page.date: {{ page.date }},
 page.author: {{ page.author }}
 ##
 
 [small]##
 AsciiDoc Substitutions +
-doctitle = {doctitle} +
-id = {id} +
-author = {author} +
+doctitle = {doctitle},
+id = {id},
+author = {author},
 revdate = {revdate}
 ##
 

@@ -5,62 +5,59 @@
 
 // link:../../../index.html[Home/] link:../../index.html[Computing/] link:../index.html[Formatting/] AsciiDoc/
 
-== AsciiDoc
+image::/computing/assets/images/asciidocXml.svg[AsciiDocXML]
 
-AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
+
+AsciiDoc(2002) by Stuart Rackham was initially designed as a markup language for DocBook, an XML format for writing technical books, articles and man pages.
+There was a need for a markup language because XML is better suited for computer input than human input.
+
+AsciiDoc has many backends. It can produce pdfs via LaTeX or via ODT, overheads, and HTML.
+
+Because of its technical origin, AsciiDoc has a full specification and does not permit of variations in how to markup text.  
 AsciiDoc preceded MarkDown(2004).
 
-We will concentrate here on what one needs to write, and describe the output in words.
+
+We assume that the reader is coming here to learn how to use AsciiDoc,
+and not to view its output.
 
 // [small]## link:../../../index.html[Gaminax.github.io] link:../../index.html[computing] link:../index.html[formatting/] ##
 
 == Formatting at the Word Level
 ----
 A *bold* word. +
-**A bold sentence**. +
+**Bold text.**. +
 An _italic_ word. +
-__An italic sentence.__ +
+__Italic text.__ +
 A +monospace+ word +
 ++Monospace text.++ +
 ----
 
 == Formatting at the Paragraph Level
 
-=== A Normal Asciidoc Paragraph
-There is no markup. The words are wrapped to fit the space available.
-
-----
-This is sentence one.
-And this is sentence two.
-----
 
 [literal]
 --
+A Normal Asciidoc Paragraph.
+There is no markup. The words are wrapped to fit the space available.
+
 ....
 Literal Text
 ....
---
 
-[listing]
---
 ----
 Listing Text
 ----
---
 
-[example]
---
 ====
 Example Text
 ====
---
 
-=== A list
-----
+A list
+
 - one
 - two
 - three
-----
+--
 
 Here is some more on link:2019-11-26-AsciiDoc-Paragraphs.html[AsciiDoc Paragraphs]
 

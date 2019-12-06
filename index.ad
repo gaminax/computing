@@ -50,10 +50,10 @@ A general description of topics in computing related to web publishing.
 |
 |===
 
-=== link:linux/index.html[Linux]
+=== link:unix/index.html[Unix]
 [cols=4]
 |===
-| link:linux/git.html[git]
+| link:unix/git.html[git]
 |
 |
 |

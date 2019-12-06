@@ -8,7 +8,7 @@ link:../index.html[computing/]
 languages/
 ////
 
-## Languages
+## Programming Languages
 
 ////
 link:javascript/index.html[JavaScript/] +
@@ -16,13 +16,54 @@ link:ruby/index.html[Ruby] +
 link:csharp/index.html[C Sharp]
 ////
 
+( WIP - First Draft )
+
 ### Language Features
-Many languages are having features added to them constantly.
-Functional Programming features have been added to Java and CSharp.
+Features add expressability to a programming language.
 
-Many languages are converging, with the same set of universal features.
-When languages have the same features, the only difference is the syntactic sugaring.
+Features do not add 'power'.
+A Turing Machine has the same 'power' as any other programming language.
+All programming languages have the same power.
 
+Language designers are constantly adding features added to their languages,
+in the hope of making programs shorter and more understandable.
+
+The trend to add Functional Programming features 
+to languages is driven by a belief in the expressibility of funtional programs.
+
+FP has been added to Java and CSharp.
+
+=== Feature Convergence
+Rob Pike, one of the designers of Golang,
+notes that when languages keeping adding the same features,
+then they all become the same language.
+Rob is an advocate for fewer features. 
+
+Doug Crawford notes that JavaScript has a different view of Objects than Java, and this form of Object can be usefully explored in programs.
+
+However JavaScript ( led by Microsoft's TypeScript ),
+through the addition of features each year is now converging on the General Object, and losing its disctinctiveness.
+
+== Execution Speed: Interpreted and Compiled programs
+A new compile program starts up slower than a new interpreted program, but executes more quickly.
+
+Interpreted langauges have more features, and are more expressive?
+
+
+== Libraries and the Language Ecosystem
+A language often has an ecosystem surrounding it, which provides libraries.
+
+The C programming language is closely tied to the Linux OS.
+Microsoft has not provided Windows support for the new versions of C, pushing users to adopt instead their version of C, C#.
+
+Java runs on many operating systems, but it is a world unto itself.
+Microsoft is moving CLR to Linux Mono.
+
+Kotlin, Scala and Clojure runs on the java Ecosystem, and this gives access to the Java Libararies, which helps a new language gain traction.
+
+Bash runs on Linux, but has been ported to Windows.
+
+== Expressiveness and Execution Speed
 One language that bucks the trend is Golang, which makes a virtue of simplicity.
 It takes pride in having as few features as possible.
 Simple is no easy.

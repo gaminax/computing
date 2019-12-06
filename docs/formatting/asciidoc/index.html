@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2019-12-03
+date: 2019-12-06
 title: ptAsciiDoc
 header: AsciiDoc
 ---
@@ -12,17 +12,25 @@ header: AsciiDoc
 <span class="small"><a href="../index.html">Formatting/</a></span>
 <span class="small">Asciidoc/</span></p>
 </div>
+<div class="imageblock">
+<div class="content">
+<img src="/computing/assets/images/asciidocXml.svg" alt="AsciiDocXML">
 </div>
 </div>
-<div class="sect1">
-<h2 id="_asciidoc">AsciiDoc</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>AsciiDoc(2002) by Stuart Rackham was initially designed as a front end for DocBook, an XML format for technical documentation.
+<p>AsciiDoc(2002) by Stuart Rackham was initially designed as a markup language for DocBook, an XML format for writing technical books, articles and man pages.
+There was a need for a markup language because XML is better suited for computer input than human input.</p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc has many backends. It can produce pdfs via LaTeX or via ODT, overheads, and HTML.</p>
+</div>
+<div class="paragraph">
+<p>Because of its technical origin, AsciiDoc has a full specification and does not permit of variations in how to markup text.
 AsciiDoc preceded MarkDown(2004).</p>
 </div>
 <div class="paragraph">
-<p>We will concentrate here on what one needs to write, and describe the output in words.</p>
+<p>We assume that the reader is coming here to learn how to use AsciiDoc,
+and not to view its output.</p>
 </div>
 </div>
 </div>
@@ -32,9 +40,9 @@ AsciiDoc preceded MarkDown(2004).</p>
 <div class="listingblock">
 <div class="content">
 <pre>A *bold* word. +
-**A bold sentence**. +
+**Bold text.**. +
 An _italic_ word. +
-__An italic sentence.__ +
+__Italic text.__ +
 A +monospace+ word +
 ++Monospace text.++ +</pre>
 </div>
@@ -44,55 +52,32 @@ A +monospace+ word +
 <div class="sect1">
 <h2 id="_formatting_at_the_paragraph_level">Formatting at the Paragraph Level</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_a_normal_asciidoc_paragraph">A Normal Asciidoc Paragraph</h3>
-<div class="paragraph">
-<p>There is no markup. The words are wrapped to fit the space available.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>This is sentence one.
-And this is sentence two.</pre>
-</div>
-</div>
 <div class="literalblock">
 <div class="content">
-<pre>....
+<pre>A Normal Asciidoc Paragraph.
+There is no markup. The words are wrapped to fit the space available.
+
+....
 Literal Text
-....</pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>----
+....
+
+----
 Listing Text
-----</pre>
-</div>
-</div>
-<div class="exampleblock">
-<div class="content">
-<div class="exampleblock">
-<div class="content">
-<div class="paragraph">
-<p>Example Text</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_a_list">A list</h3>
-<div class="listingblock">
-<div class="content">
-<pre>- one
+----
+
+====
+Example Text
+====
+
+A list
+
+- one
 - two
 - three</pre>
 </div>
 </div>
 <div class="paragraph">
 <p>Here is some more on <a href="2019-11-26-AsciiDoc-Paragraphs.html">AsciiDoc Paragraphs</a></p>
-</div>
 </div>
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2019-12-03
+date: 2019-12-06
 title: AsciiDoc Paragraphs
 layout: page
 liquid:
@@ -15,52 +15,75 @@ liquid:
 </div>
 <h1> {{ page.title }} </h1>
 <div class="paragraph">
-<p>There are several kinds of paragraphs, and each is rendered differently.
-It is easy to make text noisy.</p>
+<p>Text consists of sequences of one or more paragraphs separated by empty lines.
+When there is no formatting the paragraphs are 'Normal Paragraphs'.</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_normal_paragraphs">Normal Paragraphs</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>These are the default and need no formatting.
-The text must begin against the left margin.</p>
+<p>Precede formatted text with a formatting line, such as [literal], [listing], [quote, Lincoln, Address],  [Verse, Poe, Raven]. When you want to apply the same formatting to a sequence of paragraphs, the paragraphs need to be enclosed with a two dash '--' beginning line and a two dash '--' ending line. These surrounding lines are not needed when there is only one paragraph to be formatted.</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_literal_paragraphs_dots">Literal Paragraphs ( Dots )</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Rendered as monospaced text with the same background and no border.
-No formatting or substitutions are made to the text.
-Get them by:</p>
+<p>There are short cut abbreviations for each of the formats.
+Literal, listing, and quote paragraphs are abbreviated by surrounding the formatted text with a '&#8230;&#8203;.' line, a '----' line, and a '<em>__</em>' line.</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre> Indenting the first line slightly.
-
-[literal]
-Putting a literal header line before the paragraph
-
-....
-Surrounding the paragraph(s) with lines of four dots '....'.
-....</pre>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_listing_paragraphs_dashes">Listing Paragraphs (Dashes)</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Render the text with more backgound.</p>
+<p>&sect; Normal Paragraphs<br>
+These are the default and need no formatting.
+The text must begin against the left margin.
+There are several other kinds of paragraphs, and each is rendered differently.</p>
+</div>
+<div class="paragraph">
+<p>It is easy to make text noisy with too much formatting.</p>
+</div>
+<div class="paragraph">
+<p>&sect; Literal paragraphs<br>
+Literal Paragraphs are rendered with indentation, in a monospaced font, and have the same background as normal text.</p>
+</div>
+<div class="paragraph">
+<p>An easy way to get a literal paragraph is by indenting only the first line.
+Another way is by indenting all of the lines.</p>
+</div>
+<div class="paragraph">
+<p>Character subsitutions ( e.g. &amp;sect; )
+and callouts are allowed</p>
 </div>
 <div class="literalblock">
 <div class="content">
+<pre>  [literal]
+  Putting a literal header line before the paragraph
+
+  [literal]
+  --
+  Putting a literal and a general header line
+  before the first paragraph, and
+
+  a general footer line after the end of the text.
+  --
+
+  ....
+  Surrounding the paragraph(s) with four dot lines.
+  ....
+
+   Indenting the first line slightly.
+  xx xx xx
+  xx xx xx
+
+    Or by indenting all the lines
+    xx xx xx xx xx
+    xx xx xx xx xx</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_listing_paragraphs_four_dash_lines">Listing Paragraphs (four dash lines)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Render the text with a differing backgound.</p>
+</div>
+<div class="listingblock">
+<div class="content">
 <pre>[listing]
-Put a listing header before the paragraph, or
+&amp;sect;Put a listing header before the paragraph, or
 
 ----
 Enclose the paragraph(s) with lines of four dashes '----'

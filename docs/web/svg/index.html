@@ -1,8 +1,8 @@
 ---
 layout: default
-date: 2019-12-03
+date: 2019-12-06
 title: ptSVG
-header: Svg
+header: SVG
 ---
 <div id="preamble">
 <div class="sectionbody">
@@ -11,6 +11,9 @@ header: Svg
 <span class="small"><a href="../../index.html">Computing/</a></span>
 <span class="small"><a href="../index.html">Web/</a></span>
 <span class="small">Svg/</span></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="/computing/assets/images/svgLogo.svg" alt="svgLogo"></span></p>
 </div>
 </div>
 </div>
@@ -51,12 +54,12 @@ There is an interesting interview with him about the design of SVG at the Adobe 
 
 <div>
 <svg width=100 height=100 viewBox="0 0 100 100" > +
-<rect x=00 y=00 width=100 height=080 style="fill:red;" />
+<rect x=00 y=00 width=100 height=080 style="fill:#301;" />
 <rect x=00 y=80 width=100 height=100 style="fill:darkred;" />
-<rect y=80 width=100 height=100 style="fill:darkred;" />
-<circle cx=50 cy=50 r=25 style="fill:blue;" />
-<circle cx=50 cy=50 r=05 style="fill:black;" />
-<ellipse cx=50 cy=100 rx=35 ry=25 style="fill:darkgreen;" />
+<rect y=80 width=100 height=100 style="fill:#610;" />
+<ellipse cx=50 cy=100 rx=35 ry=25 style="fill:#283;" />
+<circle cx=50 cy=55 r=25 style="fill:#44f;" />
+<circle cx=50 cy=57 r=03 style="fill:black;" />
 </svg>
 </div>
 
@@ -75,7 +78,7 @@ There is an interesting interview with him about the design of SVG at the Adobe 
 <p>Rectangle is abbreviated to 'rect', but none of the other shapes are abbreviated.</p>
 </li>
 <li>
-<p>The rect element ends with a '/&gt;' and not a '&gt;'.</p>
+<p>The rect element ends with a '/&gt;' and not a '&gt;', to show that there will not be a &lt;/rect&gt; element.</p>
 </li>
 <li>
 <p>The y axis points down ( Like Java 2D ). Angles go clockwise.</p>
